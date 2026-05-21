@@ -1,0 +1,56 @@
+Privacy Policy for Vector Horizon LLC
+
+Last updated: May 2026
+
+1. About This Policy
+
+This privacy policy applies to all apps published by Vector Horizon LLC. Depending on the specific app, some or all of the practices described below may apply.
+
+2. Information We Collect
+
+Our apps do not require you to create an account. We may collect the following information:
+
+Game/app progress: scores, completed levels, settings, and usage statistics — stored locally on your device
+Analytics: anonymous usage data collected via Google Firebase Analytics (e.g. app opens, feature usage, crash reports)
+Advertising data: Google AdMob may collect device identifiers and usage data to serve ads
+Purchase data: if an app offers in-app purchases, transactions are processed by the Google Play Store or Apple App Store and we do not store your payment details
+3. How We Use Your Information
+
+To save your progress and preferences locally on your device
+To improve our apps through anonymous analytics
+To display advertisements (in free apps supported by ads)
+To process in-app purchases where applicable
+4. Third-Party Services
+
+Depending on the app, we may use the following third-party services, each with their own privacy policy:
+
+Google AdMob — for serving advertisements
+Google Firebase — for analytics and cloud data storage
+Google Play Billing — for in-app purchases on Android
+Apple App Store — for in-app purchases on iOS
+5. Advertising
+
+Some of our apps are free and supported by ads. Google AdMob may use your advertising ID to show personalized ads. You can opt out of personalized ads in your device settings:
+
+Android: Settings → Google → Ads → Opt out of ads personalization
+iOS: Settings → Privacy → Apple Advertising → turn off Personalized Ads
+6. Children's Privacy
+
+Our apps are suitable for all ages and do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us and we will delete it promptly.
+
+7. Data Retention
+
+App progress is stored locally on your device and can be cleared by uninstalling the app. Firebase and AdMob data is retained per their respective policies.
+
+8. Your Rights
+
+You may request deletion of any data associated with your device by contacting us. Since we do not collect personal identifying information, most data is either anonymous or stored only on your device.
+
+9. Contact
+
+If you have any questions about this privacy policy, contact us at:
+support@vectorhorizonllc.com
+
+10. Changes to This Policy
+
+We may update this policy from time to time. Continued use of our apps after changes are posted constitutes acceptance of the updated policy. We encourage you to review this page periodically.

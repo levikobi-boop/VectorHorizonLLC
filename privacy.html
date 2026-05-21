@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for all apps published by Vector Horizon LLC." />
+  <title>Privacy Policy — Vector Horizon LLC</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- ── Nav ──────────────────────────────────────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo.png" alt="Vector Horizon LLC logo" />
+        Vector Horizon LLC
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Privacy Content ───────────────────────────────────────────── -->
+  <main class="privacy-page">
+    <div class="privacy-content">
+
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: May 2026 &nbsp;·&nbsp; Vector Horizon LLC</p>
+
+      <h2>1. About This Policy</h2>
+      <p>This privacy policy applies to all apps published by Vector Horizon LLC. Depending on the specific app, some or all of the practices described below may apply.</p>
+
+      <h2>2. Information We Collect</h2>
+      <p>Our apps do not require you to create an account. We may collect the following information:</p>
+      <ul>
+        <li><strong>Game / app progress</strong> — scores, completed levels, settings, and usage statistics, stored locally on your device.</li>
+        <li><strong>Analytics</strong> — anonymous usage data collected via Google Firebase Analytics (e.g. app opens, feature usage, crash reports).</li>
+        <li><strong>Advertising data</strong> — Google AdMob may collect device identifiers and usage data to serve ads.</li>
+        <li><strong>Purchase data</strong> — if an app offers in-app purchases, transactions are processed by the Google Play Store (or Apple App Store, coming soon) and we do not store your payment details.</li>
+      </ul>
+
+      <h2>3. How We Use Your Information</h2>
+      <ul>
+        <li>To save your progress and preferences locally on your device.</li>
+        <li>To improve our apps through anonymous analytics.</li>
+        <li>To display advertisements in free apps supported by ads.</li>
+        <li>To process in-app purchases where applicable.</li>
+      </ul>
+
+      <h2>4. Third-Party Services</h2>
+      <p>Depending on the app, we may use the following third-party services, each with their own privacy policy:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google AdMob</a> — for serving advertisements.</li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase</a> — for analytics and cloud data storage.</li>
+        <li><a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">Google Play Billing</a> — for in-app purchases on Android.</li>
+        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple App Store</a> — for in-app purchases on iOS (coming soon).</li>
+      </ul>
+
+      <h2>5. Advertising</h2>
+      <p>Some of our apps are free and supported by ads. Google AdMob may use your advertising ID to show personalized ads. You can opt out of personalized ads in your device settings:</p>
+      <ul>
+        <li><strong>Android:</strong> Settings → Google → Ads → Opt out of ads personalization.</li>
+        <li><strong>iOS (coming soon):</strong> Settings → Privacy → Apple Advertising → turn off Personalized Ads.</li>
+      </ul>
+
+      <h2>6. Children's Privacy</h2>
+      <p>Our apps are suitable for all ages and do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us and we will delete it promptly.</p>
+
+      <h2>7. Data Retention</h2>
+      <p>App progress is stored locally on your device and can be cleared by uninstalling the app. Firebase and AdMob data is retained per their respective policies.</p>
+
+      <h2>8. Your Rights</h2>
+      <p>You may request deletion of any data associated with your device by contacting us. Since we do not collect personal identifying information, most data is either anonymous or stored only on your device.</p>
+
+      <h2>9. Contact</h2>
+      <p>If you have any questions about this privacy policy, contact us at:<br />
+      <a href="mailto:support@vectorhorizonllc.com">support@vectorhorizonllc.com</a></p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>We may update this policy from time to time. Continued use of our apps after changes are posted constitutes acceptance of the updated policy. We encourage you to review this page periodically.</p>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Vector Horizon LLC" />
+        Vector Horizon LLC
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy">&copy; 2026 Vector Horizon LLC. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-links').classList.toggle('open');
+    }
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('nav-links').classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
