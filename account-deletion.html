@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="How to delete your account and associated data for Vector Horizon LLC apps." />
+  <title>Account Deletion — Vector Horizon LLC</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- ── Nav ──────────────────────────────────────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo.png" alt="Vector Horizon LLC logo" />
+        Vector Horizon LLC
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Content ────────────────────────────────────────────────────── -->
+  <main class="privacy-page">
+    <div class="privacy-content">
+
+      <h1>Account &amp; Data Deletion</h1>
+      <p class="updated">Last updated: July 2026 &nbsp;·&nbsp; Vector Horizon LLC</p>
+
+      <p>This page explains how to delete your account and its associated data for Vector Horizon LLC apps that offer accounts, such as <strong>Codebreaker</strong>. Apps that do not use accounts store data only on your device, which is removed when you uninstall the app.</p>
+
+      <h2>Option 1 — Delete in the app (immediate)</h2>
+      <p>In Codebreaker:</p>
+      <ul>
+        <li>Open the app and sign in.</li>
+        <li>Go to the <strong>Home</strong> screen.</li>
+        <li>Tap <strong>Delete Account</strong> (below Logout) and confirm.</li>
+      </ul>
+      <p>This permanently and immediately deletes your account and all associated data (see below). This action cannot be undone.</p>
+
+      <h2>Option 2 — Request by email</h2>
+      <p>If you cannot access the app, email us at
+      <a href="mailto:support@vectorhorizonllc.com">support@vectorhorizonllc.com</a>
+      from the email address associated with your account, with the subject
+      “Account Deletion.” We will verify and process your request.</p>
+
+      <h2>What gets deleted</h2>
+      <p>Deleting your account removes the following from our systems:</p>
+      <ul>
+        <li>Your account details: email address, display name, and user ID.</li>
+        <li>Your game data: scores, ELO rating, win/loss/draw records, daily-puzzle
+            streaks and totals, and unlocked achievements.</li>
+        <li>Your gameplay and matchmaking preferences.</li>
+        <li>Your authentication account.</li>
+      </ul>
+
+      <h2>Data retention</h2>
+      <p>Account data is deleted promptly upon request. We may retain limited information
+      only where required to comply with legal obligations or to prevent fraud and abuse;
+      otherwise your data is removed. Anonymous analytics and advertising data are handled
+      per <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google’s
+      policies</a>. Data stored locally on your device is removed when you uninstall the app.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about account deletion:
+      <a href="mailto:support@vectorhorizonllc.com">support@vectorhorizonllc.com</a></p>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Vector Horizon LLC" />
+        Vector Horizon LLC
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy">&copy; 2026 Vector Horizon LLC. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-links').classList.toggle('open');
+    }
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('nav-links').classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
