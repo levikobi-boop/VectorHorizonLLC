@@ -926,6 +926,131 @@ body.ai {
 .ai .contact-link { color: var(--text); width: 100%; max-width: 380px; justify-content: center; }
 .ai .contact-link:hover { color: #67e8f9; border-color: var(--accent2); background: rgba(34, 211, 238, 0.06); }
 
+/* ─── Digital business card ────────────────────────────────────────── */
+.vcard-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 90% 45% at 50% 0%, rgba(59, 130, 246, 0.22) 0%, transparent 70%),
+    radial-gradient(ellipse 70% 40% at 100% 100%, rgba(34, 211, 238, 0.10) 0%, transparent 65%),
+    #010308;
+}
+
+.vcard {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 40px 22px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.vcard svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+.vcard-head { text-align: center; margin-bottom: 6px; }
+.vcard-logo { width: 190px; margin: 0 auto 6px; mix-blend-mode: lighten; }
+.vcard-head h1 { font-size: 2.1rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+
+.vcard-title {
+  color: var(--accent2);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.vcard-sub { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+
+.vcard-save,
+.vcard-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  font-size: 1rem;
+  padding: 15px 20px;
+  margin: 0;
+  font-family: inherit;
+}
+
+.vcard-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.vcard-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 6px;
+  border-radius: var(--radius);
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.vcard-action svg { color: #67e8f9; width: 22px; height: 22px; }
+.vcard-action:hover { color: var(--text); border-color: var(--accent2); }
+
+.vcard-details {
+  list-style: none;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 6px 18px;
+}
+
+.vcard-details li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 0;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.vcard-details li:last-child { border-bottom: none; }
+.vcard-details span { color: var(--muted); }
+.vcard-details a { color: var(--text); text-align: right; word-break: break-all; }
+
+.vcard-services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px;
+  border-radius: var(--radius);
+  color: var(--text);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.16), rgba(34, 211, 238, 0.08));
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+
+.vcard-services:hover { color: var(--text); border-color: var(--accent2); }
+.vcard-services strong { display: block; font-size: 1rem; }
+.vcard-services div span { color: var(--muted); font-size: 0.82rem; }
+.vcard-services > span { color: var(--accent2); font-size: 1.3rem; font-weight: 700; }
+
+.vcard-qr { text-align: center; padding: 6px 0; }
+.vcard-qr .qr-box { display: inline-block; background: #fff; border-radius: 14px; padding: 10px; }
+.vcard-qr img { width: 180px; height: 180px; }
+.vcard-qr p { color: var(--muted); font-size: 0.82rem; margin-top: 8px; }
+
+.vcard-foot { text-align: center; color: var(--muted); font-size: 0.78rem; }
+
 @media (max-width: 960px) {
   .services-grid { grid-template-columns: 1fr 1fr; }
   .service-card,
